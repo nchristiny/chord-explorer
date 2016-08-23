@@ -1,4 +1,4 @@
-#[Chord Explorer](www.chord-explorer.com)
+#[Chord Explorer](https://chordexplorer.herokuapp.com/)
 
 > Bring music to the world, one chord at a time.
 
