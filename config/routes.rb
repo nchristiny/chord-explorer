@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
 
   # resources :included_chords
   # resources :user_songs
@@ -17,7 +18,6 @@ Rails.application.routes.draw do
   post '/login' => 'sessions#create'
   delete '/logout' => 'sessions#destroy'
 
-  root 'welcome#index'
 
   concern :paginatable do
     get '(page/:page)', :action => :index, :on => :collection, :as => ''
