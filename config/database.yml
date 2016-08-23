@@ -83,3 +83,4 @@ production:
   database: chord_explorer_production
   username: chord_explorer
   password: <%= ENV['CHORD_EXPLORER_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
